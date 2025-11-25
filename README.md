@@ -60,9 +60,6 @@ Visit `http://127.0.0.1:5173` and log in or create an account.
 - `GET /projects/{id}/export` → binary `.docx` or `.pptx`
 - `GET /ai/suggest-outline` → AI-generated structure seeds
 
-### Demo Checklist
-Record a walkthrough covering: user registration & login, new Word + PowerPoint flows, AI generation, refinement with prompts + like/dislike/comments, and exports. (An optional segment can show the AI-generated outline helper.)
-
 ### Troubleshooting
 - **“Could not validate credentials”** – ensure `Authorization: Bearer token` is sent; log in again if token expired.
 - **AI errors** – confirm `GEMINI_API_KEY` is set and the backend terminal shows no auth errors.
