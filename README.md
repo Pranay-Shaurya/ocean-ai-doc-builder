@@ -66,4 +66,3 @@ Visit `http://127.0.0.1:5173` and log in or create an account.
 - **Schema mismatch** – delete `backend/ocean_ai.db` to rebuild tables after model changes.
 
 Happy building!
-
